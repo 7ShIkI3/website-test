@@ -5,15 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="base.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
+        <link href="style2.css" rel="stylesheet">
     </head>
     <body>
         <nav class="header">
+            <div class="menu2">
+                <li><img class="image" src="imgforde.png"></li>
+            </div>
             <ul>
                 <div class="menu">
-                    <li><img class="image" src="imgforde.png"></li>
                     <li><a href="index.html">ACCUEIL</a></li>
-                    <li><a href="index.html">VÉHICULES</a></li>
+                    <li><a href="index.html#vehicule">VÉHICULES</a></li>
                     <li><a href="index.html">AIDE</a></li>
                     <div class="research">
                         <li><input class="re" type="search"></li>
@@ -24,13 +26,13 @@
         </nav>
         <hr>
         <br>
-        <div class="car-list">
-            <div class="ford-focus">
+        <div id="vehicule" class="car-list">
+            <div id="img" class="ford-focus">
                 <h2>Ford Focus 2018</h2>
                 <p>La meilleur sportive de 2018</p>
                 <button id="bnt" class="btn">Découvrez nos offres</button>
             </div>
-            <div class="mustang">
+            <div id="img" class="mustang">
                 <h2>Ford Mustang</h2>
                 <p>La plus americaine des americaines</p>
                 <button id="bnt" class="btn">Découvrez nos offres</button>
@@ -40,5 +42,4 @@
             
         </div>
     </body>
-
 </html>
